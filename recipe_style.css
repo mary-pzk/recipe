@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://realfood.tesco.com/media/images/RFO-1400x919-AsianSalmon-9a9cf566-eaad-4107-aa79-886ec53e6b31-0-1400x919.jpg");
+    background-size: 100%;
+    background-repeat: round;
+    
+}
+
+/*
+nav {
+    width: 100%;
+    font-size: 30px;
+    background-color: rgb(248, 248, 248);
+    position: fixed;
+    display: inline-block;
+    margin-right: 300px;
+}
+nav a {
+    float: right;
+    margin-right: 30px;
+}
+*/
+
+#header-nav {
+    background-color: #b19146;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #def3d2;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 14px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    line-height: .75;
+
+  }
+  .navbar-brand {
+  float: left; 
+  clear: both;
+  }
+  
+   #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #110f0f;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  #nav-list a span {
+    font-size: 1.8em;
+  } 
+  
+ 
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+ 
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  li {
+      font-size: 1.1em;
+  }
+
+  .article {
+    border: solid 1px black;
+    background-color: rgb(228, 228, 215);
+    margin-top: 15px;
+    box-sizing: border-box;
+    margin: 50px 60px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+p {
+  color: black;
+}
+
+#collapsable-nav {
+  background-color: rgb(240, 233, 173);
+  float: left;
+  width: 100%;
+ 
+}
+
+
+h3 {
+  color: #161415;
+  text-align: center;
+  border: solid 1px yellowgreen;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  opacity: 85%;
+}
+
+address {
+  font-size: 1.2em;
+  font-family: cursive;
+  color: black;
+  text-align: right;
+  padding: 7px 20px 0px 5px;
+  margin-bottom: 0px;
+
+}
+
