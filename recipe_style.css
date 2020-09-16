@@ -42,8 +42,11 @@ nav a {
     margin-left: 50px;
     margin-bottom: 0;
     line-height: .75;
-
   }
+    @media (max-width: 440px) {
+      .navbar-brand h1 {margin-top: 0; margin-left: 0}
+      }
+  
   .navbar-brand {
   float: left; 
   clear: both;
